@@ -5,59 +5,286 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TPI GRUPO10</title>
-    <meta name="description" content="¿Queres que tu negocio crezca?¿Aumentar tus clientes?¿potenciar tus ventas?
-    Conocenos y posicionate!"/>
-    <link href="./assets/css/normalize.css" rel="stylesheet">
-    <link href="./assets/css/reset.css" rel="stylesheet">
-    <script src="/Trabajo Practico Integrador Grupo 10/javascript/TPI Grupo 10.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <link href="../css/TPI.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://bootstrapdash.com/demo/wizard-free-1/index.html">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
+    <script src="../javascript/TPI Grupo 10.js"></script>
 </head>
 
 
 <body>
-    <nav>
-        
-    </nav>
-    <div class="nosotros">
-    <h2>Acerca de nosotros</h2>
-<p>Somos una agencia digital de desarrollo web en pleno crecimiento con un amplio abanico de productor y servicios. 
-Diseñamos páginas webs profesionales, personalizadas, con foco en el objetivo de cada cliente para posicionar la marca en el ámbito digital.</p>
-    </div>
-    <div class="servicios">
-        <h2>Nuestros servicios</h2>
-        <ul>
-            <li>Diseño web responsive</li>
-            <li>Tienda online E-commerce</li>
-            <li>Creacion de logotipo/Branding</li>
-            <li>Creacion de contenidos para redes sociales</li>
-            <li>Mantenimiento web</li>
-            <li>Registro de dominios y hosting</li>
-        </ul>
-    </div>
-    <div class="equipo">
-        <h2>Nuestro equipo</h2>
-        <ul>
-            <li>Cassandra</li>
-            <li>Felipe</li>
-            <li>Marcio</li>
-            <li>Vannesa</li>
-        </ul>
-    </div>
-    <div>
-        <h3>¿Querés hacer crecer tu negocio? ¡Nosotros te ayudamos!
-            Arma el presupuesto a tu medida<h3>
-    </div>
-    <div>
-        <h3>¿Tenés dudas? Contactanos</h3>
+    <div id="barranavegacion">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <img id="logo" src="../images/20230411_195701_0000-removebg-preview.png" href="index.html">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="TPI.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#equipo">Nuestro equipo</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
 
-    <footer class="footer">Todos los derechos reservados</footer>
+    <section class="contenedorcarousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/banner1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/banner2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="sectionsepa">
+        <div class="separador">
+            <h2 id="equipo">Nuestro Equipo</h2>
+        </div>
+    </section>
+
+    <section class="perfiles">
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                    <div class="img">
+                        <img src="../images/perfilmar.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Marcio</h3>
+                    <h4>Desarrollador Web</h4>
+                    <p>Back-End Developer</p>
+                </div>
+                <div class="contact">
+                    <a href="http://www.linkedin.com/in/marcio-guzman-535502233" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                    <div class="img">
+                        <img src="../images/perfilcas.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Casandra</h3>
+                    <h4>Desarrolladora Web</h4>
+                    <p>UX/UI Desingner</p>
+                </div>
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/casandra-gonz%C3%A1lez-728824247/" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                    <div class="img">
+                        <img src="../images/perfilvan.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Vanesa</h3>
+                    <h4>Desarrolladora Web</h4>
+                    <p>Front-End Developer</p>
+                </div>
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/vanesalinas" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                    <div class="img">
+                        <img src="../images/perfilfel.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="description">
+                    <h3>Felipe</h3>
+                    <h4>Desarrollador Web</h4>
+                    <p>Front-End Developer</p>
+                </div>
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/felipe-arredondo-641231268/" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectionsepa">
+        <div class="separador" id="separadorservicios">
+            <h2 id="Servicios">Servicios</h2>
+        </div>
+        <div class="container-fluid losmaspedidos">
+            <div class="row">
+                <div class="col-12 mt-5 pt-5">
+        
+                </div>
+                <div class="col-lg-6 mt-5 pt-5 boxes">
+                    <div class="px-2 py-3 h-100">
+                        <div class=" m-auto">
+                            <img src="../images/icono_1.png" class="img-fluid" alt="">
+                        </div>
+                        <p class="mt-3 text-skills2" id="prueba">
+                        HTML5. <br>
+                        Sin costo de mantenimiento. <br>
+                        No se rompe nunca. <br>
+                        Ideal para profesionales y servicios. <br>
+                        Lo que necesitas para tu campaña en Google Ads.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 pt-5 boxes">
+                    <div class="px-2 py-3 h-100">
+                        <div class=" m-auto">
+                            <img src="../images/icono_2.png" class="img-fluid" alt="">
+                        </div>
+                        <p class="mt-3 text-skills2" id="prueba">
+                        Sobre plataforma Wordpress. <br>
+                        Fácil de utilizar. <br>
+                        Costo de mantenimiento bajo. <br>
+                        Ideal para quienes renuevan el contenido a diario. <br>
+                        La mejor opción costo beneficio.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 pt-5 boxes">
+                    <div class="px-2 py-3 h-100">
+                        <div class=" m-auto">
+                            <img src="../images/icono_3.png" class="img-fluid" alt="">
+                        </div>
+                        <p class="mt-3 text-skills2" id="prueba">
+                        Sobre Prestashop. <br>
+                        Sin comisiones por venta. <br>
+                        Costo de mantenimiento bajo. <br>
+                        Super plástica y con muchas integraciones. <br>
+                        Ideal para quienes ya tienen un comercio online y quieren libertad.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 pt-5 boxes">
+                    <div class="px-2 py-3 h-100">
+                        <div class=" m-auto">
+                            <img src="../images/icono_4.png" class="img-fluid" alt="">
+                        </div>
+                        <p class="mt-3 text-skills2" id="prueba">
+                        Te dejamos coqueta la tienda. <br>
+                        Ideal para quienes comienzan a vender online. <br>
+                        Rápida entrega. <br>
+                        Planes variados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionsepa">
+
+    </section>
+
+    <section>
+        <div class="formasdepago">
+            <img src="../images/pagos.png" alt="formasdepago" id="formaspago">
+        </div>
+    </section>
+
+    <section class="sectionsepa">
+        <div class="separador">
+            <h2 id="Contacto">Contacto</h2>
+            <form id="basic-form" action="#" method="post" role="form" class="php-email-form mt-4">
+                <div class="row">
+                    <div class="col-md-6 form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="NOMBRE" minlength="3" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="EMAIL" required>
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="ASUNTO" required>
+                </div>
+                <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="5" placeholder="Dejanos tu mensaje" required></textarea><br>
+                </div>
+                <div class="text-center"><button type="submit">ENVIAR</button></div><br>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+    <div id="copyright">
+            <div class="socialmedia">
+                <i class="fa-brands fa-facebook-f" class="iconossociales" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" class="iconossociales" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-twitter" class="iconossociales" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-pinterest" class="iconossociales" style="color: #ffffff;"></i>
+                <a href="https://github.com/guzmanmarcio/T.P-Integrador-Grupo-10" target="_blank"><i class="fa-brands fa-github" class="iconossociales" style="color: #ffffff;"></i></a>
+            </div>
+            <h6>Copyright WebCode - 2023</h6>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/8f08a0e249.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
