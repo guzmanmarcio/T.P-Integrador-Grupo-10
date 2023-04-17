@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TPI GRUPO10</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -249,7 +254,9 @@
         <div class="text-center" data-aos="zoom-in">
             <div class="section-title">
                 <h3> Nosotros te ayudamos</h3>
-                <div id="wizard" class="cta-btn">Arma el presupuesto a tu medida</div>
+                <div id="wizard" class="cta-btn">
+                    <a href="../wizard/index.html">Arma el presupuesto a tu medida</a>
+                </div>
             </div>
         </div>
         <div class="formasdepago">
@@ -260,7 +267,7 @@
     <section class="sectionsepa">
         <div class="separador">
             <h2 id="Contacto">Contacto</h2>
-            <form id="basic-form" action="#" method="post" role="form" class="php-email-form mt-4">
+            <form id="basic-form">
                 <div class="row">
                     <div class="col-md-6 form-group">
                         <input type="text" class="form-control" name="name" id="name" placeholder="NOMBRE" minlength="3" required>
@@ -275,11 +282,11 @@
                 <div class="form-group mt-3">
                     <textarea class="form-control" name="message" rows="5" placeholder="Dejanos tu mensaje" required></textarea><br>
                 </div>
-                
+                <div class="contact">
+                    <div  class="php-email-form mt-4"><button type="submit" onclick="enviarDatos()">ENVIAR</button></div><br>
+                </div>
             </form>
-            <div class="contact">
-                <div  class="php-email-form mt-4"><button type="submit">ENVIAR</button></div><br>
-            </div>
+            
         </div>
 
     </section>
