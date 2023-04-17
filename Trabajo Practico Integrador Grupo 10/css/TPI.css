@@ -217,7 +217,7 @@ i{
     max-width: 20rem;
 }
 
-@media(min-width:0){
+@media(max-width:767.98px){
     h3{
         font-size: large;
     }

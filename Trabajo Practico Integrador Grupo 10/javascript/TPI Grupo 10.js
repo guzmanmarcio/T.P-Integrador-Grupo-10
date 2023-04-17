@@ -21,3 +21,14 @@ function enviarDatos(){
 
 
 
+<<<<<<< HEAD
+=======
+messages : {
+    name: {
+      minlength: "Nombre debe tener al menos 3 letras"
+    }
+    email: {
+      placeholder: "Email debe tener el formato: abc@domain.tld"
+    }
+}
+>>>>>>> 26edbf88ec2c47f0f43cb5c9b0aefff46271d5cd
