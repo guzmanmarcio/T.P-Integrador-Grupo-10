@@ -18,6 +18,6 @@ messages : {
       minlength: "Nombre debe tener al menos 3 letras"
     }
     email: {
-      email: "Email debe tener el formato: abc@domain.tld"
+      placeholder: "Email debe tener el formato: abc@domain.tld"
     }
 }
