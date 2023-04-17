@@ -1,0 +1,95 @@
+/* @extend display-flex; */
+display-flex, .steps ul, .title-number, .actions ul, .actions ul li a {
+    display: flex;
+    display: -webkit-flex; }
+  
+  /* @extend list-type-ulli; */
+  list-type-ulli, .steps ul, .actions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    font-size: 13px;
+    line-height: 1.92;
+    background-color: darkslategray;
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin: 0px;
+    background-color: #868686;
+   }
+
+input, textarea, label {
+    box-sizing: border-box;
+    background-color: #dae2fc;
+    border: none;
+    font-size: 18px;
+    color: #222;
+    padding: 15px 20px;
+    border: 1px solid #ebebeb;
+    font-family: 'Poppins';
+    height: 40px;
+    font-weight: 500;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px; 
+    vertical-align:middle;}
+    
+input, label {
+    width: 100%;
+    display: block;
+ }
+
+    fieldset {
+        border: none;
+        margin: 0px;
+        padding: 0px; 
+}
+      
+      fieldset.current {
+        padding-left: 42px;
+        padding-right: 37px; }
+
+        .form-group {
+            padding-bottom: 20px;
+            position: relative; }
+
+            h3 {
+                font-size: 12px;
+                font-weight: bold;
+                color: #000000;
+                cursor: pointer; }
+              
+              h2 {
+                text-transform: uppercase;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                margin: 0px;
+                padding-top: 32px;
+                padding-bottom: 25px;
+                color: #ffffff; }
+
+                .btn {
+                    background: #2cdaa5;
+                    border: 0;
+                    padding: 10px 30px;
+                    color: #fff;
+                    transition: 0.4s;
+                    border-radius: 4px;
+                    justify-content: end;
+                    align-items: end;
+                    vertical-align: text-bottom;
+                    -ms-grid-column-align:end;
+                }
+
+                .container {
+                    width: 500px;
+                    position: relative;
+                    margin: 0 auto;
+                    background: transparent; }
+
+                    
