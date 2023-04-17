@@ -25,3 +25,17 @@ function mostrarDatos(objetoRespuesta) {
     $("#telefono-recibido").val(objetoRespuesta.phone);
     $("#email-recibido").val(objetoRespuesta.email);
 }
+
+var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), options)
+
+var myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+    keyboard: false
+  })
+
+$('#exampleModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
+function cierre(){
+    alert("Gracias por tu solicitud. Nos contactaremos a la brevedad");
+}
